@@ -1,0 +1,6 @@
+<%= link_to 'Create user', new_person_path %>
+
+All people:
+<% @people.each do |person| %>
+  <%= person.first_name %> <%= person.last_name %>
+<% end %>

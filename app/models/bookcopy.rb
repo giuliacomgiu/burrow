@@ -7,6 +7,4 @@ class Bookcopy < ApplicationRecord
 
   validates :book_id, presence: true
   validates :owner_id, presence: true
-
-  self.primary_key = 'copy'
 end

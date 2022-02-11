@@ -20,7 +20,8 @@ COPY Gemfile.lock /burrow_1/Gemfile.lock
 RUN bundle install
 
 # script executed every time the container starts
-COPY entrypoint.sh /usr/bin/
+# it is located at the file path
+COPY entrypoint.sh /usr/bin/entrypoint.sh
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000

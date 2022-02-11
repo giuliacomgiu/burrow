@@ -52,5 +52,6 @@ ActiveRecord::Schema.define(version: 2022_01_10_023635) do
 
   add_foreign_key "bookcopies", "books"
   add_foreign_key "bookcopies", "people", column: "owner_id"
+  add_foreign_key "leases", "bookcopies"
   add_foreign_key "leases", "people", column: "lessee_id"
 end
