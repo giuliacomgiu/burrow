@@ -11,35 +11,41 @@ module Books
 
     private
 
-    ORIGIN = 'https://www.googleapis.com/'.freeze
+    ORIGIN = 'https://www.googleapis.com'.freeze
     VERSION = 'v1'.freeze
-    PATH = "books/#{VERSION}/volumes/".freeze
+    PATH = "books/#{VERSION}/volumes".freeze
 
     def parse_response
       @parsed_response = JSON.parse(@response.body).except('kind')
 
       {
         total_items: @parsed_response['totalItems'],
-        items: @parsed_response['items'].map do |book|
-          {
-            title: book['volumeInfo']['title'],
-            authors: book['volumeInfo']['authors'],
-            publisher: book['volumeInfo']['publisher'],
-            published_date: book['volumeInfo']['publishedDate'],
-            isbn: book['volumeInfo']['industryIdentifiers']
-                  .filter_map { |id| id['identifier'] if id['type'] == 'ISBN_10' }
-                  .pop
-          }
-        end
+        items: parse_items
       }
     end
 
+    def parse_items
+      return [] if @parsed_response['totalItems'] == 0
+
+      @parsed_response['items'].map do |book|
+        {
+          title: book['volumeInfo']['title'],
+          authors: book['volumeInfo']['authors'],
+          publisher: book['volumeInfo']['publisher'],
+          published_date: book['volumeInfo']['publishedDate'],
+          isbn: book['volumeInfo']['industryIdentifiers']
+                .filter_map { |id| id['identifier'] if id['type'] == 'ISBN_10' }
+                .pop
+        }
+      end
+    end
+
     def url
-      "#{ORIGIN}/#{PATH}?q=#{query}"
+      "#{ORIGIN}/#{PATH}/?q=#{query}"
     end
 
     def query
-      "#{@query}&#{authentication_key}"
+      "#{@query.split(' ').join('+')}&#{authentication_key}"
     end
 
     def authentication_key

@@ -1,0 +1,789 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 756,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "jFr_zQEACAAJ",
+      "etag": "yCG1JGZsQwo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jFr_zQEACAAJ",
+      "volumeInfo": {
+        "title": "The Silmarillion",
+        "authors": [
+          "J.r.r. Tolkien"
+        ],
+        "publisher": "HarperCollins",
+        "publishedDate": "2021-03-18",
+        "description": "Including brand-new paintings, this is a fully illustrated new edition of the forerunner to The Lord of the Rings. The Silmarillion fills in the background which lies behind the more popular work, and gives the earlier history of Middle-earth, introducing some of the key characters.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0008433941"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780008433949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 480,
+        "printType": "BOOK",
+        "averageRating": 3.5,
+        "ratingsCount": 111,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jFr_zQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jFr_zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=jFr_zQEACAAJ&dq=the+silmarillion&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=jFr_zQEACAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Silmarillion.html?hl=&id=jFr_zQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=jFr_zQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Including brand-new paintings, this is a fully illustrated new edition of the forerunner to The Lord of the Rings."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3OfgnQEACAAJ",
+      "etag": "SsofHxF2EDI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3OfgnQEACAAJ",
+      "volumeInfo": {
+        "title": "The Silmarillion",
+        "authors": [
+          "J. R. R. Tolkien"
+        ],
+        "publishedDate": "2014-10-07",
+        "description": "Tales and legends chronicling the world's beginnings and the happenings of the First Age, focusing on the theft of the Simarils--the three jewels crafted by Fèeanor--by Morgoth, first Dark Lord of Middle-earth.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0544338014"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780544338012"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 118,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3OfgnQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3OfgnQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=3OfgnQEACAAJ&dq=the+silmarillion&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=3OfgnQEACAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Silmarillion.html?hl=&id=3OfgnQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3OfgnQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Tales and legends chronicling the world&#39;s beginnings and the happenings of the First Age, focusing on the theft of the Simarils--the three jewels crafted by Fèeanor--by Morgoth, first Dark Lord of Middle-earth."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "B3uFDwAAQBAJ",
+      "etag": "bdOe+q9i2dk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/B3uFDwAAQBAJ",
+      "volumeInfo": {
+        "title": "O Silmarillion",
+        "authors": [
+          "J.R.R. Tolkien"
+        ],
+        "publisher": "HarperCollins Brasil",
+        "publishedDate": "2019-03-18",
+        "description": "\"O Silmarillion\" é um relato dos Dias Antigos da Primeira Era do mundo criado por J.R.R. Tolkien. É a história longínqua para a qual os personagens de \"O Senhor dos Anéis\" e \"O Hobbit\" olham para trás, e em cujos eventos alguns deles, como Elrond e Galadriel, tomaram parte. Os contos de \"O Silmarillion\" se passam em uma época em que Morgoth, o Primeiro Senhor Sombrio, habitava a Terra-média, e os Altos-Elfos guerreavam contra ele pela recuperação das Silmarils, as joias que continham a pura luz de Valinor. O livro começa com \"O Ainulindalë\", o mito da criação do Universo, seguido pelo \"Valaquenta\", onde estão descritas a natureza e os poderes de cada um dos deuses. O \"Akallâbeth\" narra o apogeu e a queda do reino da grande ilha de Númenor no final da Segunda Era e \"Dos Anéis de Poder\" fala dos grandes eventos no final da Terceira Era, como narrado em \"O Senhor dos Anéis\".",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788595085152"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8595085153"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 496,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=B3uFDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=B3uFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt-BR",
+        "previewLink": "http://books.google.com.br/books?id=B3uFDwAAQBAJ&printsec=frontcover&dq=the+silmarillion&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=B3uFDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=B3uFDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 24.95,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 23.7,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=B3uFDwAAQBAJ&rdid=book-B3uFDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 24950000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 23700000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/O_Silmarillion-sample-epub.acsm?id=B3uFDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=B3uFDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;O Silmarillion&quot; é um relato dos Dias Antigos da Primeira Era do mundo criado por J.R.R. Tolkien. É a história longínqua para a qual os personagens de &quot;O Senhor dos Anéis&quot; e &quot;O Hobbit&quot; olham para trás, e em cujos eventos alguns deles, ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JtgLhTjBXfwC",
+      "etag": "UpCVs6/Ob2Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JtgLhTjBXfwC",
+      "volumeInfo": {
+        "title": "The Complete Guide to Middle-earth",
+        "subtitle": "From the Hobbit Through the Lord of the Rings and Beyond",
+        "authors": [
+          "Robert Foster"
+        ],
+        "publisher": "Random House Digital, Inc.",
+        "publishedDate": "2001",
+        "description": "Lists every character, event, and place in all of Tolkien's books set in Middle-Earth, incorporating detailed references to \"The Silmarillion,\" which the author considered his most important work.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0345449762"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345449764"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 568,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JtgLhTjBXfwC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JtgLhTjBXfwC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=JtgLhTjBXfwC&q=the+silmarillion&dq=the+silmarillion&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=JtgLhTjBXfwC&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Complete_Guide_to_Middle_earth.html?hl=&id=JtgLhTjBXfwC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JtgLhTjBXfwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Lists every character, event, and place in all of Tolkien&#39;s books set in Middle-Earth, incorporating detailed references to &quot;The Silmarillion,&quot; which the author considered his most important work."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "eVevDwAAQBAJ",
+      "etag": "1d0IcCt0CH0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/eVevDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Box Trilogia O Senhor dos Anéis",
+        "authors": [
+          "J.R.R. Tolkien"
+        ],
+        "publisher": "HARLEQUIN",
+        "publishedDate": "2019-11-25",
+        "description": "Apesar de ter sido publicado em três volumes – A Sociedade do Anel, As Duas Torres e O Retorno do Rei – desde os anos 1950, O Senhor dos Anéis não é exatamente uma trilogia, mas um único grande romance que só pode ser compreendido em seu conjunto, segundo a concepção de seu autor, J.R.R. Tolkien. Com design cuidadosamente pensado para refletir a unidade da obra e os desenhos originais feitos por Tolkien para as capas de cada volume, este box reúne os três livros da Saga do Anel e oferece aos leitores uma nova oportunidade de mergulhar no notável mundo da Terra-média.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788595086364"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8595086362"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 1568,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.6.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=eVevDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=eVevDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=eVevDwAAQBAJ&printsec=frontcover&dq=the+silmarillion&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=eVevDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=eVevDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 64.95,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 61.7,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=eVevDwAAQBAJ&rdid=book-eVevDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 64950000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 61700000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Box_Trilogia_O_Senhor_dos_An%C3%A9is-sample-epub.acsm?id=eVevDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=eVevDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Apesar de ter sido publicado em três volumes – A Sociedade do Anel, As Duas Torres e O Retorno do Rei – desde os anos 1950, O Senhor dos Anéis não é exatamente uma trilogia, mas um único grande romance que só pode ser compreendido ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8pDatAEACAAJ",
+      "etag": "zG7aMUCeclg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8pDatAEACAAJ",
+      "volumeInfo": {
+        "title": "Silmarillion Wersja ilustrowana",
+        "authors": [
+          "J. R. R. Tolkien"
+        ],
+        "publishedDate": "2017",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8381160960"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788381160964"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 482,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "pl",
+        "previewLink": "http://books.google.com.br/books?id=8pDatAEACAAJ&dq=the+silmarillion&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=8pDatAEACAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Silmarillion_Wersja_ilustrowana.html?hl=&id=8pDatAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8pDatAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;Ekskluzywne ilustrowane wydanie jednej z najsłynniejszych książek fantastycznych w historii."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "05Cj67qkoaoC",
+      "etag": "h+ujsiDoIgY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/05Cj67qkoaoC",
+      "volumeInfo": {
+        "title": "The Silmarillion",
+        "authors": [
+          "J. R. R. Tolkien"
+        ],
+        "publisher": "HarperCollins UK",
+        "publishedDate": "2011-02-03",
+        "description": "The popular paperback edition with a cover design by Tolkien himself, to complement the Hobbit and Lord of the Rings paperbacks. Includes a special preface by J.R.R. Tolkien.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780007322565"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0007322569"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 480,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 22,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.12.10.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=05Cj67qkoaoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=05Cj67qkoaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=05Cj67qkoaoC&pg=PT7&dq=the+silmarillion&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=05Cj67qkoaoC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=05Cj67qkoaoC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 44.61,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 44.61,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=05Cj67qkoaoC&rdid=book-05Cj67qkoaoC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 44610000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 44610000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/The_Silmarillion-sample-epub.acsm?id=05Cj67qkoaoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=05Cj67qkoaoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eThe Silmarillion\u003c/b\u003e, now published four years after the death of its author, is an account of the Elder Days, or the First Age of the World. In The Lord of the Rings were narrated the great events at the end of the Third Age; but the tales&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LHdbAAAAMAAJ",
+      "etag": "wqm+xe/FNL8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LHdbAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Tolkien & the Silmarillion",
+        "authors": [
+          "Clyde S. Kilby"
+        ],
+        "publisher": "Shaw",
+        "publishedDate": "1976",
+        "description": "\"In Tolkien and the Silmarillion, Clyde S. Kilby spins his remembrance of a summer's close personal acquaintance with J. R. R. Tolkien into an intimate portrait of the writer whose mythic universe has kindled the imagination of a vast audience. Here Kilby not only provides a rich diversity of clues to the content of that looked-for magnum opus, The Silmarillion, but elaborates on Tolkien's personal and literary relationships with his contemporaries, C. S. Lewis and Charles Williams.\" --",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015005768364"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 89,
+        "printType": "BOOK",
+        "categories": [
+          "Fantasy fiction, English"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=LHdbAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=LHdbAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=LHdbAAAAMAAJ&q=the+silmarillion&dq=the+silmarillion&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=LHdbAAAAMAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Tolkien_the_Silmarillion.html?hl=&id=LHdbAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LHdbAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;In Tolkien and the Silmarillion, Clyde S. Kilby spins his remembrance of a summer&#39;s close personal acquaintance with J. R. R. Tolkien into an intimate portrait of the writer whose mythic universe has kindled the imagination of a vast ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DDQyJAAACAAJ",
+      "etag": "gvgXSYtX5xs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DDQyJAAACAAJ",
+      "volumeInfo": {
+        "title": "The J. R. R. Tolkien Deluxe Edition Collection",
+        "subtitle": "The Children of HÃorin, the Silmarillion, the Hobbit and the Lord of the Rings",
+        "authors": [
+          "J. R. R. Tolkien"
+        ],
+        "publisher": "HarperCollins",
+        "publishedDate": "2007-12",
+        "description": "The ultimate collector's gift set, comprising four deluxe slipcased editions of The Hobbit, The Lord of the Rings, The Silmarillion and The Children of Hurin, all housed in a sturdy box. With a total value of 280 this special collection represents a saving of 80.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0007273568"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780007273560"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DDQyJAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DDQyJAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=DDQyJAAACAAJ&dq=the+silmarillion&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=DDQyJAAACAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_J_R_R_Tolkien_Deluxe_Edition_Collect.html?hl=&id=DDQyJAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DDQyJAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With a total value of £280 this special collection represents a saving of £80."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "B87wMwEACAAJ",
+      "etag": "KKTMKlJxfQE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/B87wMwEACAAJ",
+      "volumeInfo": {
+        "title": "Silmarillion",
+        "authors": [
+          "John Ronald Reuel Tolkien"
+        ],
+        "publishedDate": "2013-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9752733948"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789752733947"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 689,
+        "printType": "BOOK",
+        "categories": [
+          "English fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=B87wMwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=B87wMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "tr",
+        "previewLink": "http://books.google.com.br/books?id=B87wMwEACAAJ&dq=the+silmarillion&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=B87wMwEACAAJ&dq=the+silmarillion&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Silmarillion.html?hl=&id=B87wMwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=B87wMwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
