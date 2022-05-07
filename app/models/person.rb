@@ -5,6 +5,6 @@ class Person < ApplicationRecord
   has_many :books, through: :bookcopies, inverse_of: :owners
   has_many :leases, foreign_key: 'lessee_id'
 
-  validates :first_name, presence: true, format: { with: /[a-zA-Z]/ } # TODO: regex for line start and end
-  validates :last_name, presence: true, format: { with: /[a-zA-Z]/ } # TODO: regex for line start and end
+  validates :first_name, presence: true, format: { with: /\A[a-zA-Z]\z/ } # TODO: regex for line start and end
+  validates :last_name, presence: true, format: { with: /\A[a-zA-Z]\z/ } # TODO: regex for line start and end
 end
