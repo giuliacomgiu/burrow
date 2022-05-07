@@ -1,12 +1,10 @@
-class BooksController < ApplicationController
-  def search
-    return unless params.except(:controller, :action).present?
+# frozen_string_literal: true
 
-    Books::ExternalSearch.new(params.permit(:query)).run
-    redirect_to "/books/search/#{params[:query].split(' ').join('+')}"
-  end
+class BooksController < ApplicationController
+  def search; end
 
   def search_result
-
+    books = Books::ExternalSearch.new(params.permit(:query)).run
+    render json: books
   end
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :book do
     title { 'Cahier D\'un Retour Au Pays Natal' }

@@ -1,0 +1,7 @@
+Pesquise pelo livro:
+
+<%= form_with url: :search_result_books, method: :get do |f|  %>
+  <%= f.label :query, 'Pesquise (título, autor, editora, isbn)' %>
+  <%= f.text_field :query %>
+  <% f.submit 'Enviar' %>
+<% end %>

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 require 'webmock/rspec'
 
@@ -8,14 +10,20 @@ describe Books::ExternalSearch do
 
     context 'when books are found' do
       let(:options) { { query: 'the silmarillion' } }
-      let(:response_body) { File.open('./spec/fixtures/found_ext_search.json') }
+      let(:response_body) { File.open('./spec/fixtures/found_ext_search.json').read }
+      let(:parsed_response_body) { JSON.parse(response_body) }
+      let(:book_search_url) { 'https://www.googleapis.com/books/v1/volumes/?q=the+silmarillion&key=AIzaSyD_zn1FDbq1UbytVq929LWb4DJQUjhgkVE' }
 
       it 'returns valid hash with items' do
-        stub_request(:get, 'https://www.googleapis.com/books/v1/volumes/?q=the+silmarillion&key=AIzaSyD_zn1FDbq1UbytVq929LWb4DJQUjhgkVE')
-          .to_return(body: response_body, status: 200)
+        stub_request(:get, book_search_url).to_return(body: response_body, status: 200)
         expect(result.keys).to contain_exactly(:items, :total_items)
         expect(result[:items]).to be_an(Array)
         expect(result[:items].first.keys).to contain_exactly(:title, :authors, :publisher, :published_date, :isbn)
+      end
+
+      it 'shows only items with title, author, publisher and isbn_10 values' do
+        stub_request(:get, book_search_url).to_return(body: response_body, status: 200)
+        expect(result[:total_items]).to eq 6
       end
     end
 

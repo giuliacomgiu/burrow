@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Person, type: :model do
   describe 'columns' do
-    it { expect(described_class.column_names).to match_array(%w(id first_name last_name created_at updated_at)) }
+    it { expect(described_class.column_names).to match_array(%w[id first_name last_name created_at updated_at]) }
   end
 
   describe 'association' do

@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Book, type: :model do
   describe 'columns' do
-    it { expect(described_class.column_names).to match_array(%w(id title author publisher isbn created_at updated_at)) }
+    it { expect(described_class.column_names).to match_array(%w[id title author publisher isbn created_at updated_at]) }
     it { should have_db_index(:isbn) }
   end
 

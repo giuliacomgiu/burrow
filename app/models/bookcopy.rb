@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Bookcopy < ApplicationRecord
   # A bookcase is a group of copies!
   # If the need arises, create separate tables

@@ -1,17 +1,22 @@
 version: "3.9"
 services:
-  db:
-    image: postgres
-    volumes:
-      - ./tmp/db:/var/lib/postgresql/data
-    environment:
-      POSTGRES_PASSWORD: password
   web:
     build: .
-    # command: bash -c "chmod +x bin/start && bin/start"
+    image: burrow_1_web:compose-entrypoint
+#    environment:
+#      USER_ID: bash -c 'id -u'
+#      GROUP_ID: bash -c 'id -g'
+    entrypoint: /usr/bin/entrypoint.sh
+    command: bundle exec rails s -b '0.0.0.0'
     volumes:
       - .:/burrow_1
     ports:
       - "3000:3000"
     depends_on:
       - db
+  db:
+    image: postgres
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: password

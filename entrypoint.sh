@@ -3,7 +3,6 @@ set -e
 
 # Remove a potentially pre-existing server.pid for Rails.
 rm -f /burrow_1/tmp/pids/server.pid
-bundle install --quiet
 
 # Then exec the container's main process (what's set as CMD in the Dockerfile).
 exec "$@"
