@@ -42,11 +42,11 @@ jobs:
         
       # Setting up db
       - name: Set up database schema
-        run: docker exec -it burrow_web_1 sh -c "bundle exec rails db:setup"
+        run: docker exec burrow_web_1 sh -c "bundle exec rails db:setup"
         
       # Add or replace test runners here
       - name: Run tests
-        run: docker exec -it burrow_web_1 sh -c "bin/rake"
+        run: docker exec burrow_web_1 sh -c "bin/rake"
 
 
 #  lint:
