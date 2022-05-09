@@ -38,7 +38,7 @@ jobs:
       - name: View docker containers
         run: docker ps -a
       - name: View logs for web container
-        run: docker logs burrow_1_web
+        run: docker logs burrow_web_1
         
       # Setting up db
       - name: Set up database schema
