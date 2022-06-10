@@ -8,6 +8,6 @@ class Person < ApplicationRecord
   validates :first_name, presence: true, format: { with: /\A[a-zA-Z ]+\z/ }
   validates :last_name, presence: true, format: { with: /\A[a-zA-Z ]+\z/ }
 
-  before_save { |person| person.first_name.strip.split.map(&:capitalize).join(' ') }
-  before_save { |person| person.last_name.strip.split.map(&:capitalize).join(' ') }
+  before_save { |p| p.first_name = p.first_name.strip.split.map(&:capitalize).join(' ') }
+  before_save { |p| p.last_name = p.last_name.strip.split.map(&:capitalize).join(' ') }
 end
