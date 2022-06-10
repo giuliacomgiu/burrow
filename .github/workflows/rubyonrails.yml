@@ -35,14 +35,21 @@ jobs:
       # Build the docker image
       - name: Build the Docker image
         run: RAILS_ENV=test docker-compose up --build -d
+      - name: View docker containers
+        run: docker ps -a
+      - name: View logs for web container
+        run: docker logs burrow_web_1
 
       # Setting up db
       - name: Set up database schema
-        run: docker exec -it burrow_1_web_1 sh -c "bundle exec rails db:setup"
+        run: docker exec burrow_web_1 sh -c "bundle exec rails db:setup"
 
+      # Running directory
+      - name: Viewing local info
+        run: docker exec burrow_web_1 sh -c "pwd && ls -la"
       # Add or replace test runners here
       - name: Run tests
-        run: docker exec -it burrow_1_web_1 sh -c "bin/rake"
+        run: docker exec burrow_web_1 sh -c "bundle exec rspec"
 
 
 #  lint:

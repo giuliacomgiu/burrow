@@ -51,6 +51,11 @@ group :development, :test do
   # Linting
   gem 'rubocop'
   gem 'rubocop-rails'
+  
+  # Fixing bug
+  gem 'net-smtp', require: false
+  gem 'net-imap', require: false
+  gem 'net-pop', require: false
 end
 
 group :development do
