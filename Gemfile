@@ -38,6 +38,10 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 5.0.0'
+  # rspec bugs
+  gem 'net-smtp', require: false
+  gem 'net-imap', require: false
+  gem 'net-pop', require: false
 
   # Security
   gem 'brakeman'

@@ -31,19 +31,15 @@ jobs:
       #   uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
       #   with:
       #     bundler-cache: true
-      
+
       # Build the docker image
       - name: Build the Docker image
         run: RAILS_ENV=test docker-compose up --build -d
-      - name: View docker containers
-        run: docker ps -a
-      - name: View logs for web container
-        run: docker logs burrow_1_web_1
-        
+
       # Setting up db
       - name: Set up database schema
         run: docker exec -it burrow_1_web_1 sh -c "bundle exec rails db:setup"
-        
+
       # Add or replace test runners here
       - name: Run tests
         run: docker exec -it burrow_1_web_1 sh -c "bin/rake"
