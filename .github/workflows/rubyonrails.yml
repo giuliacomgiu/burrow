@@ -26,31 +26,43 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      # Add or replace dependency steps here
-      # - name: Install Ruby and gems
-      #   uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
-      #   with:
-      #     bundler-cache: true
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+      - name: Build and push
+        uses: docker/build-push-action@v2
+        with:
+          context: ./
+          file: ./Dockerfile
+          builder: ${{ steps.buildx.outputs.name }}
+          push: true
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:latest
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/simplewhale:buildcache,mode=max
 
-      # Build the docker image
-      - name: Build the Docker image
-        run: docker-compose up --build -d
-      - name: View docker containers
-        run: docker ps -a
-      - name: View logs for web container
-        run: docker logs burrow_web_1
-      # Setting up db
-      - name: Set up database schema
-        run: docker exec burrow_web_1 sh -c "bundle exec rails db:setup"
-      # Running directory
-      - name: Viewing local info
-        run: docker exec burrow_web_1 sh -c "pwd && ls -la"
-      # Precompiling assets
-      - name: Precompiling js assets
-        run: docker exec burrow_web_1 sh -c "bundle exec rails assets:precompile"
-      # Add or replace test runners here
-      - name: Run tests
-        run: docker exec burrow_web_1 sh -c "bundle exec rspec"
+#      # Build the docker image
+#      - name: Build the Docker image
+#        run: docker-compose up --build -d
+#      - name: View docker containers
+#        run: docker ps -a
+#      - name: View logs for web container
+#        run: docker logs burrow_web_1
+#      # Setting up db
+#      - name: Set up database schema
+#        run: docker exec burrow_web_1 sh -c "bundle exec rails db:setup"
+#      # Running directory
+#      - name: Viewing local info
+#        run: docker exec burrow_web_1 sh -c "pwd && ls -la"
+#      # Precompiling assets
+#      - name: Precompiling js assets
+#        run: docker exec burrow_web_1 sh -c "bundle exec rails assets:precompile"
+#      # Add or replace test runners here
+#      - name: Run tests
+#        run: docker exec burrow_web_1 sh -c "bundle exec rspec"
 
 
 #  lint:
