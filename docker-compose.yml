@@ -14,6 +14,17 @@ services:
       - "3000:3000"
     depends_on:
       - db
+  unit-test:
+    build: .
+    image: burrow_1_web:compose-entrypoint
+    entrypoint: /usr/bin/entrypoint.sh
+    command: bundle exec rspec
+    volumes:
+      - .:/burrow_1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
   db:
     image: postgres
     volumes:
