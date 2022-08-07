@@ -18,10 +18,16 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      # Run test cases
+      - name: Build image
+        run: docker-compose build unit-test
+      - name: Set up database schema
+        run: docker-compose run unit-test bundle exec rails db:setup
+      - name: Precompile assets
+        run: docker-compose run unit-test bundle exec rails assets:precompile
       - name: Build the image and run the tests
-        run: docker-compose up --build --exit-code-from unit-test unit-test
-  rails-unit-test:
+        run: docker-compose up --exit-code-from unit-test unit-test
+
+  test:
     runs-on: ubuntu-latest
     services:
       postgres:
@@ -43,26 +49,26 @@ jobs:
         uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
         with:
           bundler-cache: true
-      # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
-      # Add or replace test runners here
+      - name: Precompile assets
+        run: bundle exec rails assets:precompile
       - name: Run tests
-        run: bin/rake rspec
+        run: bundle exec rspec
 
-#  lint:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v3
-#      - name: Install Ruby and gems
-#        uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
-#        with:
-#          bundler-cache: true
-#      # Add or replace any other lints here
-#      - name: Security audit application code
-#        run: bundle exec brakeman -q -w2
-#      - name: Lint Ruby files
-#        run: bundle exec rubocop --parallel
-#      - name: Security audit dependencies
-#        run: bundle exec bundle audit --update
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install Ruby and gems
+        uses: ruby/setup-ruby@8f312efe1262fb463d906e9bf040319394c18d3e # v1.92
+        with:
+          bundler-cache: true
+      # Add or replace any other lints here
+      - name: Security audit application code
+        run: bundle exec brakeman -q -w2
+      - name: Lint Ruby files
+        run: bundle exec rubocop --parallel
+      - name: Security audit dependencies
+        run: bundle exec bundle audit --update
