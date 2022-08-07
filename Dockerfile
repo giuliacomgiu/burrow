@@ -21,8 +21,9 @@ RUN bundle install
 
 # script executed every time the container starts
 # it is located at the file path
-COPY entrypoint.sh /usr/bin/entrypoint.sh
-RUN chmod +x /usr/bin/entrypoint.sh
+COPY bin/entrypoints/ /usr/bin/entrypoints
+RUN chmod +x /usr/bin/entrypoints/github.sh
+RUN chmod +x /usr/bin/entrypoints/entrypoint.sh
 
 # fix root file ownership problem
 # docker build -t myimage --build-arg USER_ID=$(id -u) --build-arg GROUP_ID=$(id -g) .

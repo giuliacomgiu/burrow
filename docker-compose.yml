@@ -1,30 +1,29 @@
 version: "3.9"
 services:
-  web:
+  base_web: &base_web
     build: .
+    volumes:
+      - .:/burrow_1
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+  web:
+    <<: *base_web
     image: burrow_1_web:compose-entrypoint
 #    environment:
 #      USER_ID: bash -c 'id -u'
 #      GROUP_ID: bash -c 'id -g'
-    entrypoint: /usr/bin/entrypoint.sh
+    entrypoint: /usr/bin/entrypoints/entrypoint.sh
     command: bundle exec rails s -b '0.0.0.0'
-    volumes:
-      - .:/burrow_1
-    ports:
-      - "3000:3000"
-    depends_on:
-      - db
+
   unit-test:
-    build: .
+    <<: *base_web
     image: burrow_1_web:compose-entrypoint
-    entrypoint: /usr/bin/entrypoint.sh
+    entrypoint: /usr/bin/entrypoints/github.sh
     command: bundle exec rspec
-    volumes:
-      - .:/burrow_1
-    ports:
-      - "3000:3000"
-    depends_on:
-      - db
+
   db:
     image: postgres
     volumes:
